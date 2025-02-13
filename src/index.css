@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+body,
+#root,
+.App {
+  min-height: 100vh;
+}
+
+.container {
+  width: 1250px !important;
+  max-width: 100%;
+  padding: 0 !important;
+}
+
+:root {
+  --primary-color: #1576d6;
+  --secondary-color: #f4c123;
+  --background-linear-color: linear-gradient(
+    180deg,
+    rgba(5, 7, 60, 0) 0%,
+    #05073c 100%
+  );
+  --background-color: #686464;
+  --text-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-bottom: 0 !important;
+}
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+
+}
+
+/* font-size h tags clamp() */
+h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2.2);
+}
+h3 {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+}
+h4 {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+h5 {
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+h6 {
+  font-size: clamp(0.6rem, 1vw, 0.8rem);
+}
+
+p {
+  font-size: clamp(.8rem, 1.5vw, 1rem);
+}
+
+a {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+
+span {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}

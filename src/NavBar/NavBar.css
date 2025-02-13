@@ -1,0 +1,63 @@
+/* Custom CSS for Burger Menu */
+.navbar-toggler {
+    border: none;
+    padding: 0.25rem; 
+  }
+  
+  .navbar-toggler img {
+    filter: brightness(0); 
+  }
+
+/* Remove outline on burger button */
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Style the mobile navbar collapse */
+.mobile-navbar-collapse {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: var( --background-color);
+  z-index: 1000;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.mobile-navbar-collapse.show {
+  max-height: 500px;
+  width: 100%;
+  overflow-y: auto
+}
+
+/* Style the mobile menu links */
+.mobile-navbar-collapse .nav-link {
+  padding: 0.5rem 1rem; 
+  color: var(--text-color); 
+}
+
+
+/* Style the mobile buttons */
+.mobile-navbar-collapse .btn {
+  width: 100%; 
+  margin-bottom: 0.5rem; 
+}
+
+@media (max-width: 768px) {
+  .container{
+    max-width: 100%;
+}
+  .navbar {
+    display: flex;
+    position: fixed !important;
+    padding: 10px;
+    z-index: 1000;
+    border-radius: 0;
+    width: 100% !important;
+  }
+}
+
+
