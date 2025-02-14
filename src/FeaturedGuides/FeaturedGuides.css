@@ -10,9 +10,6 @@
   }
 
 @media (max-width: 768px) {
-    .rounded-3{
-        border-radius: 0 !important;
-    }
     .featured-guides .custom__img{
         height: 200px !important;
     }

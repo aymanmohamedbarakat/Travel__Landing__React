@@ -9,8 +9,4 @@
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  .rounded-3 {
-    border-radius: 0 !important;
-  }
-}
+
