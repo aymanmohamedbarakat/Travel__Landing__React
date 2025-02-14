@@ -6,8 +6,8 @@ import "./PopularDestinations.css"
 export default function PopularDestinations() {
   return (
     <div className="popular__destinations">
-      <div className=" mb-5">
-        <h1 className="display-6">Enjoy Your Dream Vacation</h1>
+      <div className=" mb-3">
+        <h1 className="display-6 text-capitalize">Enjoy Your Dream Vacation</h1>
         <p className="lead">
           Plan and book your perfect trip with expert advice, travel tips,
           destination information, and inspiration from us.

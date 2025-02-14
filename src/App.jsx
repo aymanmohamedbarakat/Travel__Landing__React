@@ -1,5 +1,8 @@
 import Banner from "./Banner/Banner.jsx";
+import DownloadApp from "./DownloadApp/DownloadApp.jsx";
 import FeaturedGuides from "./FeaturedGuides/FeaturedGuides.jsx";
+import Footer from "./Footer/Footer.jsx";
+import FootPrint from "./FootPrint/FootPrint.jsx";
 import NavBar from "./NavBar/NavBar.jsx";
 import PopularActivities from "./PopularActivities/PopularActivities.jsx";
 import PopularDestinations from "./PopularDestinations/PopularDestinations.jsx";
@@ -19,6 +22,9 @@ export default function App(){
         <FeaturedGuides />
         <PopularHotels />
         <PopularActivities />
+        <FootPrint />
+        <DownloadApp />
+        <Footer /> 
       </div>
     </div>
   )

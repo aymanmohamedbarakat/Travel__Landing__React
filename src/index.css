@@ -72,7 +72,7 @@ p {
 }
 
 a {
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-size: clamp(.5rem, 1.5vw, 1rem);
 }
 
 span {

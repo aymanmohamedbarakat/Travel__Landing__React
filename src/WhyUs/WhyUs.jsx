@@ -5,8 +5,8 @@ import medal from "../assets/images/medal.svg.svg";
 export default function WhyUs(){
     return (
         <div className="why__us mt-5 ">
-            <h2>Why Choose Us</h2>
-        <div className="row me-0 py-5 d-flex flex-column flex-md-row aling-items-center justify-content-center text-center text-md-start">
+            <h1 className="display-6 text-capitalize">Why Choose Us</h1>
+        <div className="row me-0 py-3 d-flex flex-column flex-md-row aling-items-center justify-content-center text-center text-md-start">
         <div className="col-md-6 col-lg-3 mb-4">
           <div className="feature">
           <img src={ticketImg} alt="ticketImg" className="img-fluid mb-4" />

@@ -6,7 +6,7 @@ import "./PopularHotels.css"
 export default function PopularHotels() {
   return (
     <div className="popular__hotels mt-5 mb-5">
-      <h2 className="display-6 mb-5">Popular Hotels</h2>
+      <h2 className="display-6 mb-3 text-capitalize">Popular Hotels</h2>
       <div className="row me-0 ps-0">
         {/* Hotel 1 */}
         <div className="col-md-6 col-lg-3 mb-4">

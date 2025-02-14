@@ -9,16 +9,16 @@ import "./PopularActivities.css";
 export default function PopularActivities() {
   return (
     <div className="popular__activities mb-5">
-      <div className="d-flex justify-content-between align-items-center mb-5">
-        <h2 className="display-6">Popular Things to Do</h2>
-        <a href="#see-all" className="lead text-dark text-decoration-none d-none d=md-block">
+      <div className="d-flex justify-content-between align-items-center mb-3">
+        <h2 className="display-6 text-capitalize">Popular Things to Do</h2>
+        <a href="#see-all" className="lead text-dark text-decoration-none d-none d-md-block">
           See all
         </a>
       </div>
       <div className="row g-3 me-0">
         {/* Activity 1 & 2 */}
         <div className="col-12 col-md-12 col-lg-4">
-          <div className="Activity_1_2 d-flex flex-lg-column  gap-4">
+          <div className="Activity_1_2 d-flex flex-lg-column flex-row gap-4">
             {/* Activity 1 */}
             <div className="Activity_1 activity-container h-100">
               <div className="image-wrapper">
@@ -62,9 +62,9 @@ export default function PopularActivities() {
  
 
             {/* Group Activity 5 & 6 */}
-            <div className="GroupActivity d-flex flex-column row flex-md-row">
+            <div className="GroupActivity d-flex  row flex-md-row">
               {/* Activity 5 */}
-              <div className="col-12 col-md-12 col-lg-5">
+              <div className="col-6 col-md-12 col-lg-5">
                 <div className="Activity_5 activity-container h-100">
                   <div className="image-wrapper">
                     <img src={food} alt="food" className="activity-image" />
@@ -74,7 +74,7 @@ export default function PopularActivities() {
               </div>
 
               {/* Activity 6 */}
-              <div className="col-12 col-12 col-md-12 col-lg-7">
+              <div className=" col-6 col-md-12 col-lg-7">
                 <div className="Activity_6 activity-container h-100">
                   <div className="image-wrapper">
                     <img src={hiking} alt="hiking" className="activity-image overflow-hidden" />
