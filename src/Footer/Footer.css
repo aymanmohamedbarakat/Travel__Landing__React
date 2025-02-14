@@ -1,14 +1,17 @@
+
+  
+
 .footer{
-    background-color: #fefcf1;
+    background-color: var(--bacground-color-secondery);
 }
 .logo img {
     width: 20px;
     height: 20px;
 }
 .footer .footer__main p {
-    color: #6c757d;
+    color: var(--links-color);
 
 }
 .footer .footer__main ul li a {
-    color: #6c757d;
+    color: var(--links-color);
 }

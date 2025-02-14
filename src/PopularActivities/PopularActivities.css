@@ -1,3 +1,5 @@
+
+
 .activity-container {
   min-height: 250px;
   border-radius: 12px;
@@ -58,11 +60,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(5, 7, 60, 0) 0%,
-    rgba(5, 7, 60, 0.7) 100%
-  );
+  background: var(--background-linear-color-secondry);
   z-index: 1;
 }
 
@@ -70,7 +68,7 @@
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  color: white;
+  color: var(--text-color);
   font-size: 1.25rem;
   font-weight: bold;
   z-index: 2;

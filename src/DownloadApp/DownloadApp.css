@@ -1,3 +1,5 @@
+
+
 .download__app .download__app__item{
     background-image: url('../assets/images/beach.jpeg');
     background-size: cover;
@@ -9,11 +11,7 @@
 .download__app .download__app__item::before{
     content: "";
     position: absolute;
-    background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0) 100%
-    );
+    background: var(--background-linear-color);
     width: 100%;
     height: 100%;
     opacity: 50%;
