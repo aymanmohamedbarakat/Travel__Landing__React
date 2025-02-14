@@ -17,8 +17,8 @@ export default function PopularActivities() {
       </div>
       <div className="row g-3 me-0">
         {/* Activity 1 & 2 */}
-        <div className="col-12 col-md-6 col-lg-4">
-          <div className="Activity_1_2 d-flex flex-column gap-4">
+        <div className="col-12 col-md-12 col-lg-4">
+          <div className="Activity_1_2 d-flex flex-lg-column  gap-4">
             {/* Activity 1 */}
             <div className="Activity_1 activity-container h-100">
               <div className="image-wrapper">
@@ -38,7 +38,7 @@ export default function PopularActivities() {
         </div>
 
         {/* Activity 3 */}
-        <div className="col-12 col-md-6 col-lg-4">
+        <div className="col-12 col-md-12 col-lg-4">
           <div className="Activity_3 activity-container h-100">
               <div className="image-wrapper">
                 <img src={beachTours} alt="beachTours" className="activity-image" />
@@ -62,9 +62,9 @@ export default function PopularActivities() {
  
 
             {/* Group Activity 5 & 6 */}
-            <div className="GroupActivity d-flex flex-column flex-md-row">
+            <div className="GroupActivity d-flex flex-column row flex-md-row">
               {/* Activity 5 */}
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-12 col-lg-5">
                 <div className="Activity_5 activity-container h-100">
                   <div className="image-wrapper">
                     <img src={food} alt="food" className="activity-image" />
@@ -74,7 +74,7 @@ export default function PopularActivities() {
               </div>
 
               {/* Activity 6 */}
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-12 col-md-12 col-lg-7">
                 <div className="Activity_6 activity-container h-100">
                   <div className="image-wrapper">
                     <img src={hiking} alt="hiking" className="activity-image overflow-hidden" />
