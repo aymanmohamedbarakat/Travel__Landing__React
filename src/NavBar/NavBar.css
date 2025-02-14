@@ -1,4 +1,26 @@
 /* Custom CSS for Burger Menu */
+/* Default Navbar Styles */
+.navbar {
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  background-color: transparent; /* Transparent background by default */
+}
+
+/* Scrolled Navbar Styles */
+.scrolled .navbar {
+  background-color: var(--background-color-nav); /* Change background to white when scrolled */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+.scrolled .navbar-brand,
+.scrolled .nav-link,
+.scrolled .btn {
+  color: rgb(255, 255, 255); /* Change text color to black for contrast */
+}
+
+.scrolled .navbar-toggler img {
+  filter: brightness(1); /* Invert hamburger icon color for better visibility  */
+}
+
 .navbar-toggler {
     border: none;
     padding: 0.25rem; 
@@ -57,6 +79,14 @@
     z-index: 1000;
     border-radius: 0;
     width: 100% !important;
+  }
+
+  .navbar-toggler img {
+    filter: brightness(1); 
+  }
+  
+  .navbar .Logo a {
+    color: var(--text-color);
   }
 }
 

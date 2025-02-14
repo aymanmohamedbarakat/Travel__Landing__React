@@ -164,8 +164,8 @@ export default function Footer() {
 
         {/* Copyright Section */}
         <div className="row">
-          <div className="col-12 text-end">
-            <p className="mb-0 mt-5">
+          <div className="col-12 text-md-end text-center">
+            <p className="mb-0 mt-5 px-3 ">
               &copy; {new Date().getFullYear()} My Dream Place. All rights reserved.
             </p>
           </div>

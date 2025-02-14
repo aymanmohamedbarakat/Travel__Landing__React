@@ -4,7 +4,7 @@ import { CiCalendar } from "react-icons/ci";
 import { LuSquareUserRound } from "react-icons/lu";
 export default function Banner() {
   return (
-    <div className="container banner p-0 mt-3">
+    <div className="container banner p-0">
       <div className="banner__container d-flex justify-content-md-center justify-content-end align-items-md-center align-items-end position-relative">
         <div className="banner__content d-flex justify-content-md-center justify-content-end align-items-md-center align-items-end flex-column px-3 px-md-0">
           <h1 className="text-start text-md-center">

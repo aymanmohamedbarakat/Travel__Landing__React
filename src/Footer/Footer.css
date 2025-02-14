@@ -12,6 +12,12 @@
     color: var(--links-color);
 
 }
+
 .footer .footer__main ul li a {
     color: var(--links-color);
+        font-size: clamp(1rem, 1.5vw, 1rem);
+}
+
+.footer .footer__main ul li a:hover {
+    color: var(--primary-color);
 }
