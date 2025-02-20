@@ -1,7 +1,7 @@
-import "./Banner.css";
 import { CiLocationOn } from "react-icons/ci";
 import { CiCalendar } from "react-icons/ci";
 import { LuSquareUserRound } from "react-icons/lu";
+import "./Banner.css";
 export default function Banner() {
   return (
     <div className="container banner p-0">
