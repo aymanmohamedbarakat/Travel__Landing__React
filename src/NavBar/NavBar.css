@@ -39,7 +39,7 @@
 /* Style the mobile navbar collapse */
 .mobile-navbar-collapse {
   position: fixed;
-  top: 60px;
+  top: 76px;
   left: 0;
   right: 0;
   background-color: var( --background-color-nav);
